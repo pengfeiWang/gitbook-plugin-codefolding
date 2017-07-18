@@ -1,9 +1,11 @@
 {
   "name": "gitbook-plugin-codefolding",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "codefolding",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "engines": {
     "gitbook": ">1.x.x"
   },
@@ -20,12 +22,12 @@
     "url": "https://github.com/pengfeiWang/gitbook-plugin-codefolding/issues"
   },
   "homepage": "https://github.com/pengfeiWang/gitbook-plugin-codefolding#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
   "gitbook": {
     "properties": {
       
     }
-  },
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.2"
   }
 }
