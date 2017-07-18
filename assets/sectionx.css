@@ -1,0 +1,72 @@
+.book.color-theme-2 .panel {
+	background: #1A1A1A;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.1);
+	border-width: 1px;
+  position: relative;
+}
+sec .panel{
+  position: relative;
+  padding: 15px 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;  
+}
+.book.color-theme-2  .panel-heading {
+	background-color: #2D3143;
+	border-width: 0px;
+}
+
+.book.color-theme-2  .panel-body {
+	background: #1A1A1A;
+}
+
+.book.color-theme-2 a.section {
+	border-color: #373b4e !important;
+}
+
+.atTitle {
+	display: flex;
+}
+.v2ui-fa{
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  border: 1px solid #999;
+  border-radius: 12px;
+  padding: 0 3px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 16px;
+  z-index: 999;
+}
+.v2ui-fa:hover{
+  background-color: #ccc;
+}
+.v2uidemo.v2ui-demo-code-block{
+  display: none;
+  margin: 0 -15px 0 -15px;
+  border-top: 1px dotted #184b6f;
+  padding: 15px 15px 0;  
+}
+.v2uidemo.v2ui-demo-desc{
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.v2uidemo.v2ui-demo-desc h1:after,
+.v2uidemo.v2ui-demo-desc h2:after,
+.v2uidemo.v2ui-demo-desc h3:after,
+.v2uidemo.v2ui-demo-desc h4:after,
+.v2uidemo.v2ui-demo-desc h5:after,
+.v2uidemo.v2ui-demo-desc h6:after{
+  content: ' ';
+  position: relative;
+  height: 1px;
+  background: #ccc;
+  width: 100%;
+  display: block;
+  transform: translateY(-50%) scaleY(.5);
+}

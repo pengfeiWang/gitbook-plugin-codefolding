@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-codefolding",
+  "version": "1.0.0",
+  "description": "codefolding",
+  "main": "index.js",
+  "scripts": {},
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengfeiWang/gitbook-plugin-codefolding.git"
+  },
+  "keywords": [
+    "codefolding"
+  ],
+  "author": "pengfeiwang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pengfeiWang/gitbook-plugin-codefolding/issues"
+  },
+  "homepage": "https://github.com/pengfeiWang/gitbook-plugin-codefolding#readme",
+  "gitbook": {},
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
