@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-codefolding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "codefolding",
   "main": "index.js",
   "scripts": {},
@@ -20,7 +20,11 @@
     "url": "https://github.com/pengfeiWang/gitbook-plugin-codefolding/issues"
   },
   "homepage": "https://github.com/pengfeiWang/gitbook-plugin-codefolding#readme",
-  "gitbook": {},
+  "gitbook": {
+    "properties": {
+      
+    }
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2"
   }
